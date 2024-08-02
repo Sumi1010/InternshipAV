@@ -1,0 +1,553 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.section1{
+    background-color: #e3ff04;
+    
+    
+}
+
+.search{
+   position: relative;
+   display: block;
+   
+   top:16px;
+}
+.nav  li a:hover{
+    background-color: black;
+    color: yellow;
+    border-radius: 50px;
+
+}
+
+.button {
+    padding:15px;
+    background-color: black;
+    color: white;
+    font-family: "Unbounded", sans-serif;
+    font-size:14px;
+    font-weight: 500;
+    
+    padding:21.5px 40px;
+}
+li,.search #tag{
+    font-family: "Unbounded", sans-serif;
+    font-size:14px;
+    font-weight:600;
+    color: black;
+}
+nav ul li a{
+    color:black;
+    margin-right: 10px;
+}
+
+.img{
+    height: 100%;
+    width:100%;
+    z-index:1;border: none;
+    margin-left: -50px;
+    margin-bottom: -80px;
+    object-fit: cover;
+    
+} 
+#logo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header{
+    padding-top: 30px;
+    padding-bottom: 150px;
+    position:sticky;
+}
+.search  .glyphicon-search::before{
+    margin-right: 10px;
+}
+.heading1{
+    font-family: "Unbounded", sans-serif;
+    font-size:100px;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 24px;
+    color: black;
+}
+.heading1-1{
+    font-family: "Unbounded", sans-serif;
+    font-size:80px;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 24px;
+    color: black;
+}
+.para{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:18px;
+    margin-top: 20px;
+    margin-bottom: 36px;
+    line-height: 30px;
+    color:black
+}
+
+.heading2{
+    font-family: "Unbounded", sans-serif;
+    font-size:60px;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    line-height: 1.33;
+    letter-spacing: -1.8px;
+    padding-top:20px;
+
+}
+
+.section2{
+    margin-top: 200px;
+}
+.box{
+    background-color: #f6f5f3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 20px solid white;
+    text-align: left;
+    padding-left: 30px;
+    
+}
+.box .symbols{
+    position: relative;
+    top:-15px;
+}
+.heading4{
+    font-family: "Unbounded", sans-serif;
+    font-size:20px;
+    font-weight: 600;
+    font-style: normal;
+
+}
+.link{
+    color: black;
+    font-family: "Unbounded", sans-serif;
+    font-size:14px;
+    font-weight: 600;
+    text-decoration:underline 2px solid black;
+   
+}
+.link:hover{
+    text-decoration: none;
+    color:black;
+    
+}
+.section3{
+    margin-top:100px;
+    margin-bottom: 100px;
+    
+    
+}
+.run-text{
+    display:flex;
+    justify-content: space-between;
+}
+.run-text li{
+    list-style: none;
+}
+
+.section4{
+    
+    margin-bottom:50px;
+}
+.logo{
+    border:1px solid black;
+    padding-top:30px;
+    padding-bottom:30px;
+    text-align: center;
+}
+
+.section6{
+    margin-top: 25px;
+    
+}
+.button2{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 250px;
+}
+.section7{
+    background-color: #e3ff04;
+   
+}
+
+.Picture{
+    object-fit: cover;
+    padding-bottom: 20px;
+}
+.pic{
+    overflow: hidden;
+    object-fit: cover;
+    height: 100%;
+    width:100%;
+
+}
+.img-sec{
+    margin-top: -100px;
+    margin-bottom:100px;
+    width: 100%;
+    overflow:hidden;
+    margin-left: 15px;
+}
+.heading4-1{
+    font-family: "Unbounded", sans-serif;
+    font-size:48px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: -0.96 ;
+    color: black;
+}
+.countercard{
+    display:flex;
+    padding-bottom: 60px;
+    align-content: start;
+}
+.countercard1{
+    margin-right: 150px;
+}
+
+
+
+
+.heading3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:18px;
+    color:black;
+}
+.section8{
+    background-color:#1601ac ;
+    padding:30px;
+}
+
+.heading6{
+    font-size: 36px;
+    font-family: "Unbounded", sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+
+}
+.section9{
+    margin-top:70px;
+    
+}
+.sec9{
+    text-align: center;
+    margin-bottom:20px;
+}
+.li-item{
+    font-family: "Unbounded", sans-serif;
+    font-size:14px;
+    font-weight:600;
+    color: black;
+    list-style:none;
+    padding:5px;
+    
+}
+i{
+    margin-right:5px;
+    margin-left:5px;
+}
+.heading4-2{
+    font-family: "Unbounded", sans-serif;
+    font-size:24px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: -0.48 ;
+    color: black;
+}
+.heading4-3{
+    font-family: "Unbounded", sans-serif;
+    font-size:60px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: -0.48 ;
+    color: black;
+
+}
+sub{
+    margin-top:-3px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.button3{
+    padding:15px;
+    background-color: black;
+    color: white;
+    font-family: "Unbounded", sans-serif;
+    font-size:14px;
+    font-weight: 500;
+    width:300px;
+    margin-top:10px;
+    margin-left:6px
+}
+.box1{
+    margin-top:40px;
+    background-color: #f6f5f3;
+    padding:20px 30px 40px 30px;
+    margin-bottom:60px;
+}
+.hr-tag{
+    border: 1px solid black;
+    padding: 0px;
+}
+.heading4-4{
+    font-family: "Unbounded", sans-serif;
+    font-size:20px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: -0.48 ;
+    color: black;
+    text-align: left;
+    padding:5px;
+
+}
+
+
+.sec11{
+    text-align:center;
+    padding: 30px;
+    margin-top:100px;
+}
+.section11{
+    background-color: #f6f5f3;
+    margin-top:100px;
+}
+.blog{
+    position:relative;
+    top:-185px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color:rgba(0,0,0, 0.5);
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+.blog-img{
+    width:100%;
+    overflow: hidden;
+        
+}
+.heading3-1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:18px;
+    color: white;
+    
+}
+.heading4-5{
+   font-family: "Unbounded", sans-serif;
+    font-size:24px;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    
+}
+.link-2{
+    font-family: "Unbounded", sans-serif;
+    font-size:14px;
+    font-weight: 600;
+    text-decoration:underline 2px solid white;
+    color: white;
+    margin-top:5px;
+}
+.link-2:hover{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    
+}
+.section12{
+    margin-top: 100px;
+}
+.talk{
+    background-color: black;
+    color: white;
+    font-family: "Unbounded", sans-serif;
+    font-size:14px;
+    font-weight: 500;
+    border-radius:80%;
+    padding:80px 50px 80px 50px;
+    
+}
+.talk:hover{
+    text-decoration: none;
+    color: white;
+}
+.roundbtn{
+    margin-top:150px;
+   
+}
+.page-end{
+    padding-top:  120px; ;
+    padding-bottom:px;
+}
+.end-li{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:18px;
+    list-style: none;
+    margin-bottom:19px;
+   
+}
+.end-li1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:18px;
+    list-style: none;
+    margin-bottom:19px;
+    margin-left:-15px;
+
+}
+.About,.contact{
+    margin-top:-10px;
+}
+.con-link{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:18px;
+    color:black;
+    text-decoration: none;
+
+}
+.con-link:hover{
+    
+    color: black;
+}
+.end{
+    padding-top: 20px;
+    padding-bottom:0px;
+    text-align: center;
+}
+.hr-line{
+    border-top: 2px solid black;
+    margin-top: 20px;
+}
+@media(max-width:640px){
+    .img{
+        margin-bottom: 80px;
+        object-fit: cover;
+        
+    }  
+    .heading1{
+        font-family: "Unbounded", sans-serif;
+        font-size:60px;
+        font-weight: 600;
+        font-style: normal;
+        margin-bottom: 24px;
+        color: black;
+    }
+    
+    .section1{
+        padding-bottom: 40px;
+    }
+    .section2{
+        margin-top: 40px;
+    }
+    .section7{
+       margin-top:-80px; 
+       
+    }
+    .img-sec{
+        width: 100%;
+        overflow:hidden;
+        margin:auto;
+    }
+    .blog{
+        position:relative;
+        top:-175px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color:rgba(0,0,0, 0.5);
+        padding-bottom: 29px;
+        padding-top:29px;
+    }
+    .article{
+        margin-bottom:-150px;
+        
+    }
+    .para{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size:18px;
+        margin-top: 20px;
+        margin-bottom: 36px;
+        line-height: 30px;
+        color:black;
+        
+    }
+    .heading2{
+        font-family: "Unbounded", sans-serif;
+        font-size:40px;
+        font-weight: 600;
+        font-style: normal;
+        color: black;
+        line-height: 1.33;
+        letter-spacing: -1.8px;
+       
+        text-align: center;
+    
+    }
+    .heading4-1{
+    font-family: "Unbounded", sans-serif;
+    font-size:35px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: -0.96 ;
+    color: black;
+}
+.section9{
+    margin-top:40px;
+
+}
+.heading1-1{
+    font-family: "Unbounded", sans-serif;
+    font-size:40px;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 24px;
+    color: black;
+    text-align: center;
+    
+}
+.About,.contact{
+    padding-top: 20px;
+    
+}
+.end-li1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:18px;
+    list-style: none;
+    margin-bottom:19px;
+}
+.talk{
+   
+    margin-left: 150px;
+    
+   
+   
+}
+}
+
+
+
+
+
+
+
+
