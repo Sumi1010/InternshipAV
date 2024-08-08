@@ -22,15 +22,9 @@
 
 }
 
-.button {
-    padding:15px;
-    background-color: black;
-    color: white;
-    font-family: "Unbounded", sans-serif;
-    font-size:14px;
-    font-weight: 500;
-    
-    padding:21.5px 40px;
+.button:hover{
+    text-decoration: none;
+    color:white;
 }
 li,.search #tag{
     font-family: "Unbounded", sans-serif;
@@ -132,6 +126,8 @@ header{
     font-size:14px;
     font-weight: 600;
     text-decoration:underline 2px solid black;
+    display:inline-flex;
+    gap:10px;
    
 }
 .link:hover{
@@ -189,6 +185,15 @@ header{
     width:100%;
 
 }
+.pic1{
+    
+        overflow: hidden;
+        object-fit: cover;
+        height: 100%;
+        width:100%;
+    
+    
+}
 .img-sec{
     margin-top: -100px;
     margin-bottom:100px;
@@ -212,10 +217,6 @@ header{
 .countercard1{
     margin-right: 150px;
 }
-
-
-
-
 .heading3{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -281,7 +282,7 @@ sub{
     font-weight: 600;
 }
 .button3{
-    padding:15px;
+    text-align: center;
     background-color: black;
     color: white;
     font-family: "Unbounded", sans-serif;
@@ -435,15 +436,144 @@ sub{
     border-top: 2px solid black;
     margin-top: 20px;
 }
+.button {
+    display:inline-block;
+    overflow: hidden;
+    padding: 21.5px 40px;
+    background-color: black;
+    color: white;
+    font-family: "Unbounded", sans-serif;
+    font-size:14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.link-effect{
+    position: relative;
+    overflow: hidden;
+    display: block;
+    height: 17px;
+    line-height: normal;
+}
+.link-effect .effect1{
+    display: block;
+    height: 100%;
+    position: relative;
+    top: 0%;
+    
+    
+}
+.button:hover .effect1 {
+    top: -100%;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+}
+.link:hover .effect1 {
+    top: -100%;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+}
+    
+@media (max-width:1000px){
+    .heading1{
+        font-family: "Unbounded", sans-serif;
+        font-size:50px;
+        font-weight: 500;
+        font-style: normal;
+        margin-bottom: 24px;
+        color: black;
+    }
+    .img{
+        margin-bottom: 40px;
+        object-fit: cover;
+        margin-left:0px;
+    }
+    .pic{
+        overflow: hidden;
+        object-fit: cover;
+        padding-top: 20px;
+    } 
+    .img-sec{
+        width: 100%;
+        margin:auto;
+    }
+    .blog{
+        position:relative;
+        top: -150px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color:rgba(0,0,0, 0.5);
+        padding-bottom: 30px;
+        padding-top:30px;
+    }
+    .section1{
+        padding-bottom: 40px;
+    }
+    header{
+        padding-top: 30px;
+        padding-bottom: 80px;
+        position:sticky;
+    }
+    .section2{
+        margin-top: 60px;
+    }
+    .section7{
+        margin-top:-80px; 
+        
+     }
+     .roundbtn{
+        margin-top:150px;
+        margin-left:220px;
+       
+    }
+    .About,.contact{
+        padding-top: 20px;
+        
+    }
+    .heading4-1{
+        font-family: "Unbounded", sans-serif;
+        font-size:30px;
+        font-weight: 600;
+        font-style: normal;
+        letter-spacing: -0.96 ;
+        color: black;
+    }
+    .article{
+        margin-bottom:-90px;
+        
+    }
+    .heading2{
+        font-family: "Unbounded", sans-serif;
+        font-size:50px;
+        font-weight: 600;
+        font-style: normal;
+        color: black;
+        line-height: 1.33;
+        letter-spacing: -1.8px;
+        padding-bottom: 30px;
+        text-align: center;
+        padding-top:20px;
+        padding-bottom: 20px;
+    
+    }
+    
+    
+
+}
 @media(max-width:640px){
     .img{
         margin-bottom: 80px;
         object-fit: cover;
+        margin-left:0px;
+        
         
     }  
     .heading1{
         font-family: "Unbounded", sans-serif;
-        font-size:60px;
+        font-size:40px;
         font-weight: 600;
         font-style: normal;
         margin-bottom: 24px;
@@ -462,20 +592,20 @@ sub{
     }
     .img-sec{
         width: 100%;
-        overflow:hidden;
+        
         margin:auto;
     }
     .blog{
         position:relative;
-        top:-175px;
+        top:-150px;
         padding-left: 15px;
         padding-right: 15px;
         background-color:rgba(0,0,0, 0.5);
-        padding-bottom: 29px;
-        padding-top:29px;
+        padding-bottom: 20px;
+        padding-top:20px;
     }
     .article{
-        margin-bottom:-150px;
+        margin-bottom:-130px;
         
     }
     .para{
@@ -497,52 +627,86 @@ sub{
         color: black;
         line-height: 1.33;
         letter-spacing: -1.8px;
-       
+        padding-bottom: 30px;
         text-align: center;
     
     }
     .heading4-1{
     font-family: "Unbounded", sans-serif;
-    font-size:35px;
+    font-size:30px;
     font-weight: 600;
     font-style: normal;
     letter-spacing: -0.96 ;
     color: black;
-}
-.section9{
-    margin-top:40px;
+    }
+    .section9{
+        margin-top:40px;
 
+    }
+    .heading1-1{
+        font-family: "Unbounded", sans-serif;
+        font-size:40px;
+        font-weight: 600;
+        font-style: normal;
+        margin-bottom: 24px;
+        color: black;
+        text-align: center;
+        
+    }
+    .About,.contact{
+        padding-top: 20px;
+        
+    }
+    .end-li1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size:18px;
+        list-style: none;
+        margin-bottom:19px;
+    }
+    .roundbtn{
+        margin-top:150px;
+        margin-left:80px;
+       
+    }
+    .pic{
+        overflow: hidden;
+        object-fit: cover;
+        padding-top: 20px;
+    }
+    .con-link{
+        display:block;
+    }
+    .heading3{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size:16px;
+        color:black;
+        display: inline;
+    }
+    .button3{
+        padding:15px;
+        background-color: black;
+        color: white;
+        font-family: "Unbounded", sans-serif;
+        font-size:14px;
+        font-weight: 500;
+        width:250px;
+        margin-top:10px;
+        margin-left:6px
+    }
+    .heading4-5{
+        font-family: "Unbounded", sans-serif;
+         font-size:20px;
+         font-weight: 600;
+         font-style: normal;
+         color: white;
+         
+     }
 }
-.heading1-1{
-    font-family: "Unbounded", sans-serif;
-    font-size:40px;
-    font-weight: 600;
-    font-style: normal;
-    margin-bottom: 24px;
-    color: black;
-    text-align: center;
-    
-}
-.About,.contact{
-    padding-top: 20px;
-    
-}
-.end-li1{
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size:18px;
-    list-style: none;
-    margin-bottom:19px;
-}
-.talk{
-   
-    margin-left: 150px;
-    
-   
-   
-}
-}
+
 
 
 
